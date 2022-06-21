@@ -4,11 +4,9 @@
 ## 1. Description
 Adversarial detection based on inner-class Euclidean distance is a method to detect adversarial examples.
 
-![system](./framework.png)
 
 
-
-### 1.1 Glance at the DEEPSEC Repo:
+### 1.1 Glance at the Repo:
 
 - `RawModels/` contains code used to train models and trained models will be attacked;
 - `CleanDatasets/` contains code used to randomly select clean samples to generate adversarial examples.
