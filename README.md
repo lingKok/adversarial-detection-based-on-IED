@@ -31,7 +31,6 @@ We firstly train and save the deep learning models for MNIST and CIFAR10 [here](
 
 ### STEP 2. Generating adversarial examples
 Taking the trained models and the clean samples as the input, we can generate corresponding adversarial examples for each kinds of adversarial attacks that we have implemented in art including FGSM,PGD,JSMA,DEEPFOOL,CW$_0$,CW$_2$,CW$_\infty$.
-.
 >python adv_generator.py 
 
 ### STEP 3. Detect adversarial examples
